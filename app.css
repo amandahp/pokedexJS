@@ -1,0 +1,81 @@
+body {
+    
+    background: rgb(241,7,86);
+    background: linear-gradient(55deg, rgba(241,7,86,1) 0%, rgba(241,7,86,1) 28%, rgba(76,225,255,1) 100%);
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background:white;
+    opacity: 90%;
+    color: #222;
+    text-align: center;
+    border-radius: 10%;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(148,148,148);
+    border-color: linear-gradient(131deg, rgba(148,148,148,1) 72%, rgba(29,1,1,1) 100%);
+    
+}
+.card-title {
+    border-radius: 4%;
+    border-style: solid;
+    border-width: 0.05;
+    border-color:rgb(148,148,148);
+    border-color: linear-gradient(131deg, rgba(148,148,148,1) 72%, rgba(29,1,1,1) 100%);
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.card-subtitle {
+    font-weight: lighter;
+    color: #666;
+    margin-top: 5px;
+}
+.card-image {
+    height: 120px;
+}
+
+.type1 {
+    border-radius: 4%;
+    border-radius: 4%;
+    border-style: solid;
+    border-width: 0.01cm;
+    border-color: #666;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+}
+
+.tituloTipo{
+    border-radius: 4%;
+    border-style: solid;
+    border-width: 0.01cm;
+    border-color: #666;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px !important;
+}
+
+#pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
